@@ -1,0 +1,161 @@
+body {
+  font-family: "Merriweather", serif;
+  line-height: 2;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  color: #11cdd4;
+
+  margin: 0px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 6.625rem;
+  line-height: 2;
+  text-align: center;
+}
+h2 {
+  color: #11cdd4;
+  width: 60%;
+  margin: 0px auto 0px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+h3 {
+  color: #11999e;
+}
+
+hr {
+  border: dotted;
+  border-bottom: none;
+  color: #f3fdfd;
+  margin-top: 0px;
+  position: relative;
+  width: 20%;
+  border-width: 8px;
+}
+p {
+  color: #40514e;
+  position: relative;
+}
+/****************************Button***********************************/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+/************************************CLASS ****************************************************/
+/*******************************CONTAINER *********************************/
+.top-container {
+  background-color: #e3fdfd;
+  min-height: 50vh;
+  padding-top: 7%;
+  background-image: url(./bg.png);
+  background-size: cover;
+  opacity: 100%;
+}
+.middle-container {
+  background-color: #bbfff6;
+  padding-top: 30px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding-bottom: 30px;
+}
+/*******************************TOP PART******************************/
+.top-cloud {
+  position: relative;
+  top: 100px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: relative;
+  top: 300px;
+  left: 300px;
+}
+.mount-img {
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+/*******************************HELLO PART******************************/
+.Nancy-img {
+  display: block;
+  margin: 0px auto;
+  width: 200px;
+  border-radius: 50%;
+}
+.profile-describe {
+  width: 30%;
+  margin: 0 auto 20px auto;
+}
+
+/*******************************MY SKILL PART******************************/
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+.code-img {
+  border-radius: 8px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.chilli-img {
+  border-radius: 8px;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+/******************************GET IN TOUCH PART******************************/
+.contact-me {
+  padding-bottom: 40px;
+  min-width: 600px;
+  text-align: center;
+}
+
+.get-in-touch-detail {
+  margin: 40px auto 40px auto;
+  width: 40%;
+}
+
+.footer-link {
+  color: #11999e;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  margin: 70px 40px 0 40px;
+  text-decoration: none;
+  text-align: center;
+}
+.footer-link:hover {
+  color: #e2e7e7;
+}
+
+.version {
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+}
