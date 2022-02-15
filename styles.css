@@ -5,16 +5,16 @@ body {
   margin: 0;
 }
 h1 {
-  color: #11cdd4;
+  color: #ffffff;
 
-  margin: 0px auto 0 auto;
+  margin: 0px auto 0px auto;
   font-family: "Sacramento", cursive;
   font-size: 6.625rem;
   line-height: 2;
   text-align: center;
 }
 h2 {
-  color: #11cdd4;
+  color: #5af2e8;
   width: 60%;
   margin: 0px auto 0px auto;
   font-family: "Montserrat", sans-serif;
@@ -72,7 +72,7 @@ p {
   background-color: #e3fdfd;
   min-height: 50vh;
   padding-top: 7%;
-  background-image: url(./bg.png);
+  background-image: url(./background-pic.jpg);
   background-size: cover;
   opacity: 100%;
 }
@@ -99,6 +99,13 @@ p {
   height: 400px;
   display: block;
   margin: 0 auto;
+}
+.programmar {
+  color: white;
+  margin-top: -200px;
+}
+.Nancy-name {
+  margin-bottom: 200px;
 }
 /*******************************HELLO PART******************************/
 .Nancy-img {
