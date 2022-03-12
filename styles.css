@@ -5,16 +5,15 @@ body {
   margin: 0;
 }
 h1 {
-  color: #ffffff;
-
-  margin: 0px auto 0px auto;
+  color: #66bfbf;
+  margin: 0px auto 0 auto;
   font-family: "Sacramento", cursive;
-  font-size: 6.625rem;
+  font-size: 5.625rem;
   line-height: 2;
   text-align: center;
 }
 h2 {
-  color: #5af2e8;
+  color: #66bfbf;
   width: 60%;
   margin: 0px auto 0px auto;
   font-family: "Montserrat", sans-serif;
@@ -29,11 +28,10 @@ h3 {
 hr {
   border: dotted;
   border-bottom: none;
-  color: #f3fdfd;
+  color: #c9cfcf;
   margin-top: 0px;
   position: relative;
-  width: 20%;
-  border-width: 8px;
+  width: 8%;
 }
 p {
   color: #40514e;
@@ -70,14 +68,11 @@ p {
 /*******************************CONTAINER *********************************/
 .top-container {
   background-color: #e3fdfd;
-  min-height: 50vh;
+
   padding-top: 7%;
-  background-image: url(./background-pic.jpg);
-  background-size: cover;
-  opacity: 100%;
 }
 .middle-container {
-  background-color: #f2fffd;
+  background-color: #d0f0f0;
   padding-top: 30px;
 }
 .bottom-container {
@@ -99,13 +94,6 @@ p {
   height: 400px;
   display: block;
   margin: 0 auto;
-}
-.programmar {
-  color: white;
-  margin-top: -200px;
-}
-.Nancy-name {
-  margin-bottom: 200px;
 }
 /*******************************HELLO PART******************************/
 .Nancy-img {
